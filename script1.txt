@@ -1,0 +1,41 @@
+# Default Start steps for PreSetup.
+# Programmatically generated on 14-Dec-15 12:50:55 PM.
+
+#
+# Variable Declarations
+#
+$RoleBinPath = 'C:\Windows\Temp\ExchangeSetup'
+$RoleDatacenterPath = 'C:\Windows\Temp\ExchangeSetup\Datacenter'
+$RoleDatacenterServiceEndpointABCHContactService = '<ServiceEndpoint><Url>http://pvt-contacts.msn.com/abservice/abservice.asmx</Url></ServiceEndpoint>'
+$RoleDatacenterServiceEndpointDomainPartnerManageDelegation = '<ServiceEndpoint><Url>https://domains.live.com/service/managedelegation.asmx</Url></ServiceEndpoint>'
+$RoleDatacenterServiceEndpointDomainPartnerManageDelegation2 = '<ServiceEndpoint><Url>https://domains.live.com/service/managedelegation2.asmx</Url></ServiceEndpoint>'
+$RoleDatacenterServiceEndpointLiveFederationMetadata = '<ServiceEndpoint><Url>https://nexus.passport.com/FederationMetadata/2006-12/FederationMetadata.xml</Url></ServiceEndpoint>'
+$RoleDatacenterServiceEndpointLiveGetUserRealm = '<ServiceEndpoint><Url>https://login.live.com/GetUserRealm.srf</Url></ServiceEndpoint>'
+$RoleDatacenterServiceEndpointLiveServiceLogin2 = '<ServiceEndpoint><Url>https://login.live.com/RST2.srf</Url></ServiceEndpoint>'
+$RoleDatacenterServiceEndpointMsoFederationMetadata = '<ServiceEndpoint><Url>https://nexus.microsoftonline-p.com/FederationMetadata/2006-12/FederationMetadata.xml</Url></ServiceEndpoint>'
+$RoleInstallationMode = 'Install'
+$RoleInstallPath = 'C:\Windows\Temp\ExchangeSetup'
+$RoleInvocationID = '20151214-12505505182004857396'
+$RoleIsDatacenter = $False
+$RoleIsDatacenterDedicated = $False
+$RoleIsFfo = $False
+$RoleIsPartnerHosted = $False
+$RoleLoggingPath = 'C:\Windows\Temp\ExchangeSetup\Logging'
+$RoleMsiInstallPath = $null
+$RoleMsiInstallPathBin = $null
+$RoleProductPlatform = 'amd64'
+$RoleRoles = 'AdminToolsRole,GatewayRole'
+$RoleSetupLoggingPath = 'C:\ExchangeSetupLogs'
+$RoleTargetVersion = '15.01.0225.042'
+
+#
+# Component tasks
+#
+
+# Tasks for 'All Roles Pre Setup' component
+
+# Tasks for 'Admin Tools PreSetup' component
+
+# Tasks for 'Gateway PreSetup' component
+
+# Tasks for 'All Roles Pre Setup Last' component
